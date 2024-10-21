@@ -4,7 +4,8 @@
     box-sizing: border-box;
 
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -121,20 +122,23 @@ li {
     color: black;
 }
 
-.mouse{
+.mouse {
     text-align: center;
     font-size: 50px;
     padding-top: 100px;
     animation: mouse 1s infinite;
 }
-@keyframes mouse{
-    0%{
+
+@keyframes mouse {
+    0% {
         transform: translateY(0px);
     }
-    50%{
+
+    50% {
         transform: translateY(20px);
     }
-    100%{
+
+    100% {
         transform: translateY(0px);
     }
 }
@@ -254,7 +258,7 @@ li {
     background-color: white;
 
     padding: 20px;
-    
+
     transition: 0.3s;
 }
 
@@ -263,20 +267,24 @@ li {
     margin-bottom: 20px;
 
 }
-.skills i{
+
+.skills i {
     color: #ff6a6a;
     font-size: 40px;
 }
-.skills .contents li:hover{
+
+.skills .contents li:hover {
     background-color: #ff6a6a;
     color: white;
     border-radius: 15px;
 
 }
-.skills .contents li:hover i{
+
+.skills .contents li:hover i {
     color: white;
 }
-.bg{
+
+.bg {
     width: 100%;
     height: 700px;
     background: url(bg2.jpg) no-repeat;
@@ -285,7 +293,73 @@ li {
     background-attachment: fixed;
 }
 
-.project{
+.project {
     height: 1200px;
     margin-top: 0;
+}
+
+.contact {
+    width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+
+}
+
+.contact h2 {
+    font-size: 40px;
+    color: #ff6a6a;
+}
+
+.contact h1 {
+    font-size: 50px;
+}
+
+.contact .contents {
+    width: 1200px;
+    height: 700px;
+    display: flex;
+}
+
+.contact .left {
+    width: 400px;
+    height: 700px;
+}
+
+.contact .right {
+    width: 800px;
+    height: 700px;
+}
+
+.info {
+    width: 350px;
+    height: 80px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.contact .right p {
+
+    margin-top: 20px;
+}
+
+.contact .right input {
+    width: 800px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+
+.contact .right textarea {
+    width: 800px;
+    height: 400px;
+
+}
+
+.contact button {
+    width: 800px;
+    height: 30px;
+    background-color: burlywood;
+    color: white;
+    font-weight: bold;
+    border: none;
 }
